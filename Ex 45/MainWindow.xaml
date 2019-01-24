@@ -6,7 +6,23 @@
         xmlns:local="clr-namespace:Ex_45"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="0,10,0,-10">
+        <Label Name="Lb_First" Content="Welcome" Margin="100,92,628,286"/>
+        <Button Name="Btn_InsertPet"  Content="Insert Pet" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Margin="504,86,0,0" Click="Btn_InsertPet_Click"/>
+        <Button Name="Btn_InsertOwner"  Content="Insert Owner" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Margin="504,138,0,0" Click="Btn_InsertOwner_Click" />
+        <Label x:Name="Lb_Second" Content="to" Margin="100,138,628,255"/>
+        <Label x:Name="Lb_Third" Content="Pet" Margin="100,189,628,204"/>
+        <Label x:Name="Lb_Fourth" Content="Stuff" Margin="100,238,628,155"/>
+        <Label x:Name="Lb_Fifth" Content="Stuff" Margin="100,288,628,105"/>
+        <Label x:Name="Lb_Sixth" Content="" Margin="100,333,628,60"/>
+        <TextBox Name="Tb_First" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="284,92,0,0" TextChanged="Tb_First_TextChanged"/>
+        <TextBox x:Name="Tb_Second" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="284,138,0,0" TextChanged="Tb_Second_TextChanged"/>
+        <TextBox x:Name="Tb_Third" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="284,189,0,0" TextChanged="Tb_Third_TextChanged"/>
+        <TextBox x:Name="Tb_Fourth" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="284,238,0,0" TextChanged="Tb_Fourth_TextChanged"/>
+        <TextBox x:Name="Tb_Fifth" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="284,288,0,0" TextChanged="Tb_Fifth_TextChanged"/>
+        <TextBox x:Name="Tb_Sixth" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="284,333,0,0" TextChanged="Tb_Sixth_TextChanged"/>
+        <Button x:Name="Btn_ShowAllPets"  Content="Show All Pets" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Margin="504,189,0,0" Click="Btn_ShowAllPets_Click" />
+        <Button x:Name="Btn_FindOwnerByLastName"  Content="Find Owner" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Margin="504,238,0,0" Click="Btn_FindOwnerByLastName_Click" />
+
     </Grid>
 </Window>
